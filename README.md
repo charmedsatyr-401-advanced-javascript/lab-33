@@ -6,8 +6,9 @@
 ### Author: Joseph Wolfe
 
 ### Links and Resources
-* [GitHub](https://github.com/charmedsatyr-401-advanced-javascript/lab-33)
+* [GitHub PR](https://github.com/charmedsatyr-401-advanced-javascript/lab-33/pull/1)
 * [![Build Status](https://travis-ci.com/charmedsatyr-401-advanced-javascript/lab-33.svg?branch=submission)](https://travis-ci.com/charmedsatyr-401-advanced-javascript/lab-33) 
+* [Netlify](https://wizardly-easley-9f561b.netlify.com)
 
 ### Modules
 ```
