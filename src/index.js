@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
 
-import App from './app.js';
+import App from './components/app';
 
-class Main extends React.Component {
-  render() {
-    return <App />;
-  }
-}
+import createStore from './store/index';
+const store = createStore();
+
+const Root = () => (
+  <Provider store={store}>
+    <App />
+  </Provider>
+);
 
 const rootElement = document.getElementById('root');
-ReactDOM.render(<Main />, rootElement);
+ReactDOM.render(<Root />, rootElement);
